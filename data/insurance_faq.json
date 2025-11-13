@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "Hiểu rõ về bảo hiểm nhân thọ",
+    "category": "Life Insurance",
+    "summary": "Giới thiệu cơ bản về bảo hiểm nhân thọ, quyền lợi và lý do nên tham gia sớm.",
+    "content": "Bảo hiểm nhân thọ giúp bảo vệ tài chính cho gia đình khi có rủi ro xảy ra. Người tham gia đóng phí định kỳ và được hưởng quyền lợi khi đáo hạn hoặc khi gặp sự cố sức khỏe nghiêm trọng.",
+    "tags": ["life", "family", "finance"],
+    "author": "Nguyen Van An",
+    "created_at": "2025-10-15",
+    "updated_at": "2025-10-20"
+  },
+  {
+    "id": 2,
+    "title": "Phân biệt giữa bảo hiểm sức khỏe và bảo hiểm y tế",
+    "category": "Health Insurance",
+    "summary": "Hai loại bảo hiểm này thường bị nhầm lẫn, nhưng có mục đích và quyền lợi khác nhau.",
+    "content": "Bảo hiểm y tế là chương trình bắt buộc của nhà nước, trong khi bảo hiểm sức khỏe là sản phẩm thương mại giúp mở rộng quyền lợi chăm sóc sức khỏe. Người dân có thể tham gia cả hai để tối ưu bảo vệ.",
+    "tags": ["health", "medical", "comparison"],
+    "author": "Tran Thi Bich",
+    "created_at": "2025-09-05",
+    "updated_at": "2025-09-10"
+  },
+  {
+    "id": 3,
+    "title": "5 lưu ý khi mua bảo hiểm ô tô",
+    "category": "Car Insurance",
+    "summary": "Những điều cần biết để chọn gói bảo hiểm ô tô phù hợp và tiết kiệm chi phí.",
+    "content": "Trước khi mua bảo hiểm ô tô, hãy xác định rõ phạm vi bảo hiểm, mức khấu trừ, công ty uy tín, dịch vụ hỗ trợ 24/7 và điều khoản loại trừ. Việc hiểu rõ hợp đồng giúp bạn tránh rủi ro khi yêu cầu bồi thường.",
+    "tags": ["car", "vehicle", "tips"],
+    "author": "Le Hoang Nam",
+    "created_at": "2025-08-21",
+    "updated_at": "2025-08-23"
+  },
+  {
+    "id": 4,
+    "title": "Lợi ích của bảo hiểm du lịch quốc tế",
+    "category": "Travel Insurance",
+    "summary": "Tại sao nên mua bảo hiểm du lịch trước khi ra nước ngoài?",
+    "content": "Bảo hiểm du lịch quốc tế giúp bạn an tâm hơn khi đi xa, bao gồm hỗ trợ y tế, thất lạc hành lý, trễ chuyến bay hoặc hủy tour. Một số quốc gia còn yêu cầu bắt buộc có bảo hiểm trước khi cấp visa.",
+    "tags": ["travel", "international", "safety"],
+    "author": "Pham Minh Chau",
+    "created_at": "2025-07-18",
+    "updated_at": "2025-07-22"
+  },
+  {
+    "id": 5,
+    "title": "Các yếu tố ảnh hưởng đến phí bảo hiểm nhà ở",
+    "category": "Home Insurance",
+    "summary": "Phí bảo hiểm nhà phụ thuộc vào nhiều yếu tố — không chỉ giá trị tài sản.",
+    "content": "Những yếu tố chính ảnh hưởng đến phí bảo hiểm gồm vị trí địa lý, vật liệu xây dựng, hệ thống an ninh, lịch sử bồi thường và giá trị tài sản. Việc nâng cấp an toàn có thể giúp giảm phí đáng kể.",
+    "tags": ["home", "property", "cost"],
+    "author": "Do Tuan Kiet",
+    "created_at": "2025-06-30",
+    "updated_at": "2025-07-01"
+  }
+]

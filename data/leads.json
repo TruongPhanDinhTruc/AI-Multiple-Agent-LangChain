@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyen Van An",
+    "source": "Facebook Ads",
+    "interest_area": "Health Insurance",
+    "score": 85,
+    "status": "Contacted"
+  },
+  {
+    "id": 2,
+    "name": "Tran Thi Bich",
+    "source": "Website Form",
+    "interest_area": "Life Insurance",
+    "score": 72,
+    "status": "New"
+  },
+  {
+    "id": 3,
+    "name": "Le Hoang Nam",
+    "source": "Referral",
+    "interest_area": "Car Insurance",
+    "score": 90,
+    "status": "Qualified"
+  },
+  {
+    "id": 4,
+    "name": "Pham Minh Chau",
+    "source": "Google Ads",
+    "interest_area": "Travel Insurance",
+    "score": 65,
+    "status": "New"
+  },
+  {
+    "id": 5,
+    "name": "Do Tuan Kiet",
+    "source": "Email Campaign",
+    "interest_area": "Home Insurance",
+    "score": 78,
+    "status": "Contacted"
+  },
+  {
+    "id": 6,
+    "name": "Nguyen Thi Lan",
+    "source": "Event",
+    "interest_area": "Health Insurance",
+    "score": 92,
+    "status": "Converted"
+  },
+  {
+    "id": 7,
+    "name": "Hoang Gia Bao",
+    "source": "Cold Call",
+    "interest_area": "Life Insurance",
+    "score": 55,
+    "status": "Unqualified"
+  },
+  {
+    "id": 8,
+    "name": "Vu Quoc Huy",
+    "source": "Facebook Ads",
+    "interest_area": "Motorbike Insurance",
+    "score": 68,
+    "status": "Follow-up"
+  },
+  {
+    "id": 9,
+    "name": "Dang Kim Oanh",
+    "source": "Website Form",
+    "interest_area": "Health Insurance",
+    "score": 80,
+    "status": "Qualified"
+  },
+  {
+    "id": 10,
+    "name": "Bui Thanh Phong",
+    "source": "Referral",
+    "interest_area": "Car Insurance",
+    "score": 88,
+    "status": "Converted"
+  }
+]

@@ -1,0 +1,30 @@
+[
+ {
+ "id": "CUST001",
+ "name": "John Smith",
+ "email": "john@example.com",
+ "phone": "+1-555-0123",
+ "policies": [
+ {
+ "type": "Auto Insurance",
+ "policy_id": "AUTO-001"
+ }
+ ],
+ "transactions": ["Claim-001", "Renewal-2023"],
+ "status": "Active"
+ },
+ {
+ "id": "CUST042",
+ "name": "Sarah Johnson",
+ "email": "sarahj@example.com",
+ "phone": "+1-555-0456",
+ "policies": [
+ {
+ "type": "Health Insurance",
+ "policy_id": "HEALTH-042"
+ }
+ ],
+ "transactions": ["Claim-201", "Renewal-2022"],
+ "status": "Inactive"
+ }
+]
