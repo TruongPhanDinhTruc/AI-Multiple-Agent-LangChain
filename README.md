@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## 🏃 Running the Application
 
-### Option 1: Using run.py
+### 1: Using main.py
 ```bash
 python main.py
 ```
