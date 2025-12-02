@@ -40,5 +40,5 @@ class InsuranceWorkflow:
     def __init__(self):
         self.workflow = app
 
-    def run(self, query: str):
-        return self.workflow.invoke({"messages": [HumanMessage(content=query)]}, config)
+    async def run(self, query: str):
+        return await self.workflow.ainvoke({"messages": [HumanMessage(content=query)]}, config)
