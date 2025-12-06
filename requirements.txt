@@ -10,3 +10,4 @@ faiss-cpu=1.13.0
 pypdf=6.4.0
 sentence-transformers=5.1.2
 torch=2.9.1
+streamlit=1.51.0

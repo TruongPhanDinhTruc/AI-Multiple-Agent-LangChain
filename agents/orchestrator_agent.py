@@ -27,6 +27,7 @@ class OrchestratorAgent:
         1. Which agent to process
         2. Order of processing (if multiple agents are needed)
         3. Should results from multiple agents be combined
+        4. You can recommend insurance product based on profile user
 
         AVAILABLE AGENTS:
         - customer: Process customer information, update profile, history
