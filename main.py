@@ -1,8 +1,12 @@
-from frontend.interface import UserInterface
-from workflows.insurance_graph import InsuranceWorkflow
-import asyncio
+import sys
+from pathlib import Path
 
-if __name__ == "__main__":
-    router = InsuranceWorkflow()
-    ui = UserInterface(router)
-    asyncio.run(ui.run())
+# Thêm thư mục hiện tại vào path
+sys.path.insert(0, str(Path(__file__).parent))
+
+# Import streamlit app
+import streamlit.web.cli as stcli
+
+if __name__ == '__main__':
+    sys.argv = ["streamlit", "run", "frontend/interface.py"]
+    sys.exit(stcli.main())

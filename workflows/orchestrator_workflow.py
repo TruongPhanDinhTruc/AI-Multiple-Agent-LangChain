@@ -5,8 +5,9 @@ from workflows.customer_node import customer_node
 from workflows.lead_node import lead_node
 from workflows.knowledge_node import knowledge_node
 from workflows.synthesis_node import synthesis_handler
-from memory.memory_save import memory, config
+from memory.memory_save import memory
 from langchain_core.messages import HumanMessage, AIMessage
+import uuid
 
 class OrchestratorWorkflow:
     def __init__(self):
@@ -75,12 +76,12 @@ class OrchestratorWorkflow:
         
         return graph
     
-    async def _orchestrate(self, state: MessagesState) -> MessagesState:
+    def _orchestrate(self, state: MessagesState) -> MessagesState:
         """Orchestrator node - analyze and plan"""
         query = state["messages"][-1].content
         
         # Analyze request
-        plan = await self.orchestrator.analyze_request_async(query)
+        plan = self.orchestrator.analyze_request(query)
         
         print(f"\n🎯 Orchestration Plan:")
         print(f"  Primary Agent: {plan['primary_agent']}")
@@ -135,7 +136,17 @@ class OrchestratorWorkflow:
         return "end"
     
     async def run(self, query: str):
-        """Run the orchestrator workflow"""
+        """Run the orchestrator workflow with unique thread ID for each request"""
+        # Tạo thread_id mới cho mỗi request để tránh conflict state
+        thread_id = str(uuid.uuid4())
+        config = {
+            "configurable": {
+                "thread_id": thread_id
+            }
+        }
+        
+        print(f"🔄 Running workflow with thread_id: {thread_id}")
+        
         result = await self.app.ainvoke(
             {"messages": [HumanMessage(content=query)]},
             config
